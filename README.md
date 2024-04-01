@@ -21,6 +21,7 @@ pip install huggingface_hub
 ```
 
 ## Uso
+É possivel clonar este repositório para o ambiente que achar melhor ou acessar o seguinte colab para executar o código: [Avaliação]([https://huggingface.co/](https://colab.research.google.com/drive/1w9R-bZE4V3jEKxAzOhpGGd7svBRWE8vg?usp=sharing)) 
 ### Detalhamento dos tópicos do notebook python `avaliacao.ipynb`
 
 **- Instalação das Bibliotecas:** Instalação das bibliotecas necessárias para o projeto.
