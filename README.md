@@ -27,11 +27,15 @@ You can clone this repository to the environment of your choice or access the fo
 
 **- Preliminary Analysis of Pre-trained Models:** In this stage, it is possible to perform analyses and tests with the models that we will fine-tune. You can submit an image and a question through the Gradio tool and receive the models' output on the Gradio panel. Some images used for this evaluation and excluded from the models' fine-tuning are available in the `images` directory.
 
+![Test01](/imgs_readme/test01.png)
+
 **- Huggingface Hub Login:** It is necessary to authenticate with your token generated on [Hugging Face](https://huggingface.co/) to later push the models to a repository on the platform.
 
 **- Training of Blip and ViLT:** In this stage, we perform the necessary treatments of images and texts, train the ViLT and BLIP models, and push each of the models to their respective repositories on Hugging Face.
 
 **- Model Evaluation After Fine-tuning:** In this stage, we perform an evaluation of the models after fine-tuning using the Gradio tool for evaluation, tests can be performed with the same images from the `images` directory highlighted in the **Preliminary Analysis of Pre-trained Models** stage. It is also already configured to fetch the models which I, Matheus de Ornelas, trained and pushed to Hugging Face, these are the repositories of the two models: [BLIP](https://huggingface.co/Ornelas/blip_finetuned_fashion) and [ViLT](https://huggingface.co/Ornelas/vilt_finetuned_fashion).
+
+![Test02](/imgs_readme/test02.png)
 
 ## Results
 We observed that in the initial evaluation, the ViLT model did not return any categories, however, after fine-tuning, we obtained good results, albeit superficial. We believe that with some adjustments to the data and the addition of more data and model hyperparameter tuning, an improved result can be achieved. Regarding the BLIP model, we noticed that in the initial evaluation, it also did not return satisfactory results. However, after fine-tuning the model, we observed a very good result. Even with a simple model and limited data, we obtained satisfactory results, where we could identify a significant amount of fashion categories in the images with acceptable context.
