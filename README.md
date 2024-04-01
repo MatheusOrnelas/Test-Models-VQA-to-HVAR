@@ -1,4 +1,4 @@
-# Test-Models-VQA-to-HVAR
+# Sistema de Identificação de Itens Fashion com VQA
 Selection test for HVAR
 
 ## Introdução
